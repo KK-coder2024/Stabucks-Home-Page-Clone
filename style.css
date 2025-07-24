@@ -1,0 +1,296 @@
+body{
+    margin: 0px;
+    padding: 0px;
+     font-family: 'Work Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.circle{
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    width: 20px;
+    height: 20px;
+}
+
+.wrapper {
+     font-family: 'Work Sans', sans-serif;
+     cursor: none;
+}
+
+.navbar{
+    display: flex;
+    width: 1fr;
+    height: 70px;
+    overflow-x: hidden;
+    justify-content: space-between;
+    padding: 15px 40px;
+    box-shadow: 0 0 5px rgba(128, 128, 128, 0.637);
+    
+} 
+.left-elements{
+    display: flex
+}
+.left-elements ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    align-items: center;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+.right-elements{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    /* width: 450px; */
+}
+.a-nav{
+    text-decoration: none;
+    color: black;
+    cursor: none;
+
+}
+.a-nav:hover{
+    color: rgb(0, 97, 65)   ;
+}
+.right-in-elements{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    cursor: none;
+}
+.right-in-elements:hover{
+    fill: rgb(0, 97, 65);
+    color: rgb(0, 97, 65);
+}
+.right-in-elements h3{
+    font-size: 15px;
+}
+.btn-nav{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+.btn-in-nav{
+    padding: 8px 15px;
+    cursor: none;
+}
+.btn-nav button:nth-of-type(1){
+    border: solid black 1px ;
+    background-color: white;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 600;
+    transition: all 0.2s ease;
+    cursor: none;
+}
+.btn-nav button:nth-of-type(2){
+    border: solid black 1px;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 600;
+    transition: all 0.2s ease;
+    cursor: none;
+}
+.btn-nav button:nth-of-type(1):hover{
+    background-color: rgba(167, 167, 167, 0.342);
+}
+.btn-nav button:nth-of-type(2):hover{
+    background-color: rgba(27, 27, 27, 0.74);
+}
+.sec-1 {
+    margin: 30px 0px  30px;
+    background-color: rgb(247, 240, 228);
+    display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+.sec-1-texts{
+    width: 667px;
+    display: flex;
+    justify-content: center ;
+}
+.sec-1-in-texts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    height: 100%;
+    width: 455px;
+    color: rgb(49, 69, 46);
+}
+.sec-1-texts h1{
+    font-size: 50px;
+    font-weight: 600;
+    margin: 0px;
+}
+.sec-1-in-texts h2{
+    font-weight: 450;
+}
+.sec-1-in-texts button{
+    border: solid rgb(49, 69, 46) 1px ;
+    background-color: rgba(49, 69, 46, 0);
+    font-size: 16px;
+    color: rgb(49, 69, 46);
+    padding: 5px 20px;
+    border-radius: 50px;
+    font-weight: 600;
+    cursor: none;
+    transition: all 0.2s ease;
+}
+.sec-1-in-texts button:hover{
+    background-color: rgba(0, 0, 0, 0.055);
+}
+.sec-2 {
+    margin: 30px 0px  30px;
+    background-color: rgb(49, 69, 46);
+    display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+.sec-2-texts{
+    width: 667px;
+    display: flex;
+    justify-content: center ;
+}
+.sec-2-in-texts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    height: 100%;
+    width: 455px;
+    gap: 20px;
+    color: rgb(255, 255, 255);
+}
+.sec-2-texts h1{
+    font-size: 50px;
+    margin: 0px;
+    font-weight: 600;
+}
+.sec-2-texts h2{
+    font-weight: 450;
+    line-height: 1.5;
+}
+.sec-2-in-texts button{
+    border: solid rgb(255, 255, 255) 1px ;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    font-size: 16px;
+    padding: 5px 20px;
+    border-radius: 50px;
+    font-weight: 600;
+    transition: all 0.2s ease;
+    cursor: none;
+}
+.sec-2-in-texts button:hover{
+    background-color: rgba(0, 0, 0, 0.233);
+}
+.sec-3 {
+    margin: 30px 0px  30px;
+    background-color: rgb(209, 209, 169);
+    height: 394px;
+    display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+.sec-3-texts{
+    width: 667px;
+    display: flex;
+    justify-content: center ;
+}
+.sec-3-in-texts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    height: 100%;
+    width: 455px;
+    color: rgb(49, 69, 46);
+}
+.sec-3-texts h1{
+    font-size: 25px;
+    margin: 0px;
+    font-weight: 500;
+}
+.sec-3-in-texts h2{
+        font-size: 18px;
+        line-height: 33px;
+        font-weight: 300;
+}
+.sec-3-in-texts button{
+    border: solid rgb(49, 69, 46) 1px ;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(49, 69, 46);
+    font-size: 16px;
+    padding: 5px 20px;
+    border-radius: 50px;
+    font-weight: 600;
+    transition: all 0.2s ease;
+    cursor: none;
+            
+}
+.sec-3-in-texts button:hover{
+    background-color: rgba(0, 0, 0, 0.048);
+}
+.sec-4 {
+    margin: 30px 0px  30px;
+    background-color: rgb(0, 97, 65);
+    display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+.sec-4-texts{
+    width: 667px;
+    display: flex;
+    justify-content: center ;
+}
+.sec-4-in-texts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    height: 100%;
+    width: 455px;
+    color: rgb(255, 255, 255);
+}
+.sec-4-texts h1{
+    font-size: 50px;
+    margin: 0px;
+    font-weight: 600;
+}
+.sec-4-texts h2{
+    font-weight: 450;
+}
+.sec-4-in-texts button{
+    border: solid rgb(255, 255, 255) 1px ;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    font-size: 16px;
+    padding: 5px 20px;
+    border-radius: 50px;
+    font-weight: 600;
+            
+    transition: all 0.2s ease;
+}
+.sec-4-in-texts button:hover{
+    background-color: rgba(0, 0, 0, 0.233);
+}
+.last-text{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.last-text h5{
+    width: 651px;
+    font-size: 15px;
+}
